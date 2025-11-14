@@ -70,6 +70,7 @@ textarea {
 
 label {
   border: none;
+  padding: 0;
 }
 
 #personal-information-section {
@@ -89,12 +90,20 @@ label {
   border-bottom: 2px solid var(--vmc-blue);
 }
 
+/* all input containers */
 .input-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
+/* row one */
 .one {
   display: flex;
+  gap: 1rem;
   justify-content: space-between;
+}
+
+#suffix-container {
+  width: 30%;
 }
