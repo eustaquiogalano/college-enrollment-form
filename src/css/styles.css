@@ -77,7 +77,7 @@ label {
   padding: 0;
 }
 
-#personal-information-section {
+section {
   width: 100%;
   display: flex;
   gap: 1.5rem;
