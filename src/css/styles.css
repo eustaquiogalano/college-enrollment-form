@@ -97,13 +97,23 @@ label {
   flex-direction: column;
 }
 
-/* row one */
-.one {
+/* all rows in all section */
+.row {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: space-between;
 }
 
+/* row one */
 #suffix-container {
   width: 30%;
+}
+
+/* row two */
+#day-container {
+  width: 30%;
+}
+
+#year-container {
+  width: 50%;
 }
