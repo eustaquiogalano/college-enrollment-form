@@ -68,6 +68,10 @@ textarea {
   border: 1px solid black;
 }
 
+select {
+  background-color: var(--pure-white);
+}
+
 label {
   border: none;
   padding: 0;
