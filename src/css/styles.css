@@ -129,3 +129,13 @@ section > div {
 #last-year-attended-container {
   width: 60%;
 }
+
+@media (min-width: 600px) {
+  .row {
+    flex-direction: row;
+  }
+
+  #day-year-container {
+    width: 100%;
+  }
+}
