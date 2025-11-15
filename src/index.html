@@ -20,6 +20,7 @@
           <div class="section-title-container">
             <h2>Personal Information</h2>
           </div>
+
           <div class="row one">
             <div id="first-name-container" class="input-container">
               <label for="first-name">First Name:</label>
@@ -188,6 +189,7 @@
               </select>
             </div>
           </div>
+
           <div class="row six">
             <div class="input-container">
               <label for="emergency-contact-person"
@@ -210,7 +212,75 @@
           </div>
         </section>
 
-        <section id="academic-information-section"></section>
+        <section id="academic-information-section">
+          <div class="section-title-container">
+            <h2>Academic Information</h2>
+          </div>
+
+          <div class="row one">
+            <div class="input-container">
+              <label for="student-id">Student ID:</label>
+              <input type="number" name="student-id" id="student-id" />
+            </div>
+          </div>
+
+          <div class="row two">
+            <div class="input-container">
+              <label for="course">Course:</label>
+              <select name="course" id="course">
+                <option value="is">BSIS</option>
+                <option value="crim">BS CRIM</option>
+                <option value="ba">BSBA</option>
+                <option value="bpa">BPA</option>
+                <option value="tm">BSTM</option>
+                <option value="hm">BSHM</option>
+                <option value="ed">BSED</option>
+                <option value="eed">BEED</option>
+                <option value="eced">BECED</option>
+                <option value="ned">BSNED</option>
+                <option value="tcp">TCP</option>
+                <option value="csned">CSNED</option>
+                <option value="ceced">CECED</option>
+              </select>
+            </div>
+            <div class="input-container">
+              <label for="major">Major (if applicable):</label>
+              <input type="text" name="course-major" id="major" />
+            </div>
+          </div>
+
+          <div class="row three">
+            <div class="input-container">
+              <label for="year-level">Year Level:</label>
+              <select name="year-level" id="year-level">
+                <option value="1st">1st year</option>
+                <option value="2nd">2nd year</option>
+                <option value="3rd">3rd year</option>
+                <option value="4th">4th year</option>
+              </select>
+            </div>
+
+            <div class="input-container">
+              <label for="semester">Semester:</label>
+              <select name="semester" id="semester">
+                <option value="1st">1st</option>
+                <option value="2nd">2nd</option>
+              </select>
+            </div>
+
+            <div class="input-container">
+              <label for="academic-year">Academic Year:</label>
+              <input
+                type="text"
+                name="academic-year"
+                id=""
+                academic-year
+                placeholder="2025-2026"
+                disabled
+              />
+            </div>
+          </div>
+        </section>
         <section id="previous-school-information-section"></section>
         <section id="guardian-information-section"></section>
         <section id="requirements-section"></section>
