@@ -90,7 +90,7 @@ section {
   justify-content: space-between;
 }
 
-#section-title-container {
+.section-title-container {
   border-bottom: 2px solid var(--vmc-blue);
 }
 
