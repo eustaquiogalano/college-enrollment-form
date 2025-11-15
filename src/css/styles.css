@@ -121,3 +121,8 @@ section > div {
 #year-container {
   width: 50%;
 }
+
+/* previous shool information section */
+#last-year-attended-container {
+  width: 60%;
+}
