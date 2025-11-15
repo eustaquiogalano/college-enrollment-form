@@ -54,7 +54,10 @@ main {
 }
 
 form {
-  width: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 input,
