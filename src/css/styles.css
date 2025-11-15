@@ -105,10 +105,16 @@ section > div {
 }
 
 /* all rows in all section */
-.row {
+.row,
+#day-year-container {
   display: flex;
+  flex-direction: column;
   gap: 2rem;
   justify-content: space-between;
+}
+
+#day-year-container {
+  flex-direction: row;
 }
 
 /* row one */
@@ -118,11 +124,11 @@ section > div {
 
 /* row two */
 #day-container {
-  width: 30%;
+  width: 50%;
 }
 
 #year-container {
-  width: 50%;
+  /* width: 50%; */
 }
 
 /* previous shool information section */
