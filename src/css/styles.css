@@ -167,6 +167,16 @@ section > div {
   background-color: green;
 }
 
+/* requirements upload section */
+#note-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#note-container ul {
+  padding: 0.5rem;
+}
+
 @media (min-width: 600px) {
   .row {
     flex-direction: row;
