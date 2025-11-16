@@ -181,6 +181,10 @@ section > div {
 }
 
 @media (min-width: 600px) {
+  form {
+    width: 90%;
+  }
+
   .row {
     flex-direction: row;
   }
