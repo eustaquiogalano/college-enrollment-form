@@ -38,6 +38,10 @@ header > div {
   padding: 0.5rem;
 }
 
+#logo-container > img {
+  max-width: 150px;
+}
+
 #title-container {
   width: 100%;
   background-color: var(--vmc-blue);
