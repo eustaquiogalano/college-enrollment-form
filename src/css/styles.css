@@ -189,7 +189,15 @@ section > div {
     flex-direction: row;
   }
 
+  #month-container {
+    width: 80%;
+  }
+
   #day-year-container {
     width: 100%;
+  }
+
+  #sex-container {
+    width: 50%;
   }
 }
