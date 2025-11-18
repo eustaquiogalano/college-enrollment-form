@@ -151,11 +151,6 @@ section > div {
 }
 
 /* parent guardian information section */
-#checkbox-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 #checkbox-container > label {
   display: flex;
