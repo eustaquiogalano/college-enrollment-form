@@ -66,7 +66,6 @@ form {
 }
 
 input,
-label,
 select,
 textarea {
   width: 100%;
@@ -74,6 +73,15 @@ textarea {
   padding: 0.5rem;
   border-radius: 4px;
   border: 1px solid var(--vmc-blue);
+}
+
+input:hover,
+select:hover,
+textarea:hover,
+input:focus,
+select:focus,
+textarea:focus {
+  background-color: rgb(241, 241, 241);
 }
 
 select {
